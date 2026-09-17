@@ -1,13 +1,13 @@
 package enums;
 
-enum Sysmbol {
+public enum Symbol {
     X('X'),
     O('O'),
     EMPTY('_');
 
     private final char displayChar;
 
-    Sysmbol(char displayChar){
+    Symbol(char displayChar){
         this.displayChar = displayChar;
     }
 
